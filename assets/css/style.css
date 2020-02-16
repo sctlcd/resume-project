@@ -87,11 +87,11 @@ header {
 }
 
 /* .heading {
-    margin-left: 50px;
+    
 } */
 
-.logo {
-    background: url("../images/baby-groot.jpg");
+.brand {
+    background: url("../images/rubiks-cube.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -110,20 +110,20 @@ header {
     transition: all .5s ease-in-out;
         -moz-transition: all .5s ease-in-out;
        -webkit-transition: all .5s ease-in-out;
-    border-style: 3px solid #000000;
+    border-style: 1px solid #000000;
 } 
 
-.heading p {
+/* .heading p {
     color: #f5c705; 
     font-size: 40px;
     margin-left: 10px;
-}
+} */
 
 .name {
     font-family: "Exo", sans-serif;
     font-weight: 100;
     font-size: 46px;
-    margin-top: 30px;
+    margin-top: 70px;
     color: #ffffff;
     margin-left: 70px;
 }
