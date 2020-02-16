@@ -116,6 +116,7 @@ header {
     transition: all .5s ease-in-out;
         -moz-transition: all .5s ease-in-out;
        -webkit-transition: all .5s ease-in-out;
+    border-style: 3px solid #000000;
 } 
 
 .heading p {
@@ -157,6 +158,7 @@ header {
 
 .menucontainer {
     font-size: 0;
+    background-color: #000000;
 }
 
 .list-inline-item:not(:last-child) {
@@ -164,20 +166,21 @@ header {
 }
 
 .menuitem {
+    position: relative;
     height: 120px;
     text-align: center;
     padding: 0;
 }
 
 .menuitem a {
-    width: 100%;
+    /* width: 100%; */
     text-decoration: none;
     color: #ffffff;
-    height: 120px;
+    height: 100px;
+    
 } 
 
 .menuitem a i {
-    padding-top: 22px;
     display: block;
     color: #fafafa;
     font-size: 26px;
@@ -194,12 +197,23 @@ header {
     letter-spacing: 2px;
 }
 
+.menuitem-wrap {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    left: 10px;
+    bottom: 10px;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
 /* Hover.css */
 
-.hvr-sweep-to-bottom:before {
+/* .hvr-sweep-to-bottom:before {
     background: rgba(0, 0, 0, 0.2);
     height: 120px;
-}
+} */
 
 /* Footer */
 
@@ -427,11 +441,24 @@ button[type="submit"] {
     }
 }
 
-.border-menuitem-black {
+@media(max-width: 768px) {
+    .menuitem-wrap {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    left: 10px;
+    bottom: 10px;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+}
+
+/* .border-menuitem-black {
     border-top: 15px;
     border-right: 7.5px;
     border-bottom: 15px;
     border-left: 7.5px; 
     border-style: solid;
     border-color: #000000;
-}
+} */
