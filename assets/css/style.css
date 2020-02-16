@@ -80,12 +80,6 @@ h4 {
     color: #fafafa;
 }
 
-.border-dark {
-    border-width: 20px; 
-    border-style: solid;
-    border-color: #000000;
-}
-
 /* Heading */
 
 header {
@@ -206,6 +200,10 @@ header {
     border-radius: 10px;
     padding: 20px;
     text-align: center;
+}
+
+.menuitem a:hover {
+    background-color: rgba(0, 0, 0, 0.2);
 }
 
 /* Hover.css */
@@ -454,11 +452,3 @@ button[type="submit"] {
 }
 }
 
-/* .border-menuitem-black {
-    border-top: 15px;
-    border-right: 7.5px;
-    border-bottom: 15px;
-    border-left: 7.5px; 
-    border-style: solid;
-    border-color: #000000;
-} */
