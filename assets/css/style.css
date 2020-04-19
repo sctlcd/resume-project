@@ -38,6 +38,14 @@
     background-color: #dc6100;
 }
 
+.ui-menu-color-interests {
+    background-color: #f5c705;
+}
+
+.ui-menu-color-github {
+    background-color: rgb(102, 102, 102);
+}
+
 /* Special paddings/margins/text/border */
 
 h1,
@@ -79,6 +87,7 @@ h4 {
     margin-bottom: 40px; 
     color: #fafafa;
 }
+
 
 /* Heading */
 
