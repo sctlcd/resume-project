@@ -43,8 +43,7 @@
 }
 
 .ui-menu-color-github {
-    background-color: #ffffff;
-    color: #000;
+    background-color: rgb(102, 102, 102);
 }
 
 /* Special paddings/margins/text/border */
@@ -88,6 +87,7 @@ h4 {
     margin-bottom: 40px; 
     color: #fafafa;
 }
+
 
 /* Heading */
 
