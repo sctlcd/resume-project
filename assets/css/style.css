@@ -31,7 +31,7 @@
 }
 
 .ui-menu-color-contact {
-    background-color: #0057a2; 
+    background-color: #0057a2;
 }
 
 .ui-menu-color-download {
@@ -84,7 +84,7 @@ h4 {
     font-family: "Exo", sans-serif;
     font-weight: 300;
     margin-top: 25px;
-    margin-bottom: 40px; 
+    margin-bottom: 40px;
     color: #fafafa;
 }
 
@@ -96,11 +96,11 @@ header {
 }
 
 /* .heading {
-    
+
 } */
 
 .brand {
-    background: url("../images/rubiks-cube.jpg");
+    background: url("../images/baby-groot.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -120,10 +120,10 @@ header {
         -moz-transition: all .5s ease-in-out;
        -webkit-transition: all .5s ease-in-out;
     border-style: 1px solid #000000;
-} 
+}
 
 /* .heading p {
-    color: #f5c705; 
+    color: #f5c705;
     font-size: 40px;
     margin-left: 10px;
 } */
@@ -147,7 +147,7 @@ header {
     margin-left: 70px;
 }
 
-/* Navbar */ 
+/* Navbar */
 
 #nav {
     margin: 0;
@@ -180,8 +180,8 @@ header {
     text-decoration: none;
     color: #ffffff;
     height: 100px;
-    
-} 
+
+}
 
 .menuitem a i {
     display: block;
@@ -239,7 +239,7 @@ footer {
     transition: all 0.35s ease-in-out;
         -moz-transition: all 0.35s ease-in-out;
         -webkit-transition: all 0.35s ease-in-out;
-        -o-transition: all 0.35s ease-in-out;    
+        -o-transition: all 0.35s ease-in-out;
 }
 
 .cv-pdf i:hover {
@@ -271,7 +271,7 @@ footer {
 }
 
 .social-links li a:hover {
-    color:  #f5c705;  
+    color:  #f5c705;
     text-decoration: none;
 }
 
@@ -410,7 +410,7 @@ footer {
     font-family: "Exo", sans-serif;
     font-weight: 300;
     margin-top: 25px;
-    margin-bottom: 20px; 
+    margin-bottom: 20px;
 }
 
 .center-form {
@@ -428,13 +428,13 @@ button[type="submit"] {
 }
 
 .btn-secondary:hover {
-    background-color: #0079e2; 
+    background-color: #0079e2;
     border-color: #0079e2;
 }
 
 .contact-icon{
     color: #0057a2;
-    padding-right: 10px; 
+    padding-right: 10px;
 }
 
 /* Media queries */
